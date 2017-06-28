@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='gwtDiDagger'>
+                    
+  <inherits name='com.google.gwt.user.User' />     
+  <inherits name="dagger.Dagger" />
+  
+
+  <entry-point class='com.gwidgets.example.client.GwtDiDagger' />
+  <source path='client' />
+  
+  <set-property name="compiler.useSourceMaps" value="true" />
+
+</module>
